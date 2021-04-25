@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB-Fundamentals", "VB-Fundamentals\VB-Fundamentals.vbproj", "{47A152B8-2798-40B0-8ABC-16D26D10154D}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VariablesOperatorsConstants", "VariablesOperatorsConstants\VariablesOperatorsConstants.vbproj", "{ADBAC30E-2641-4EA6-ACC2-68076DC3E4D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{47A152B8-2798-40B0-8ABC-16D26D10154D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47A152B8-2798-40B0-8ABC-16D26D10154D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47A152B8-2798-40B0-8ABC-16D26D10154D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADBAC30E-2641-4EA6-ACC2-68076DC3E4D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADBAC30E-2641-4EA6-ACC2-68076DC3E4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADBAC30E-2641-4EA6-ACC2-68076DC3E4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADBAC30E-2641-4EA6-ACC2-68076DC3E4D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
