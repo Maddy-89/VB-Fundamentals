@@ -7,6 +7,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB-Fundamentals", "VB-Funda
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VariablesOperatorsConstants", "VariablesOperatorsConstants\VariablesOperatorsConstants.vbproj", "{ADBAC30E-2641-4EA6-ACC2-68076DC3E4D3}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ObjectOrientatedProgramming", "ObjectOrientatedProgramming\ObjectOrientatedProgramming.vbproj", "{4C2D0838-F7D0-485E-99AE-0134E9014DA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{ADBAC30E-2641-4EA6-ACC2-68076DC3E4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADBAC30E-2641-4EA6-ACC2-68076DC3E4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADBAC30E-2641-4EA6-ACC2-68076DC3E4D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C2D0838-F7D0-485E-99AE-0134E9014DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2D0838-F7D0-485E-99AE-0134E9014DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2D0838-F7D0-485E-99AE-0134E9014DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2D0838-F7D0-485E-99AE-0134E9014DA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
