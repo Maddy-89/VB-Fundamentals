@@ -1,4 +1,9 @@
 ﻿Public Class Product
+    Sub New()
+        StandardCost = 500
+        ListPrice = 900
+        SellStartDate = DateTime.Now
+    End Sub
     Public Property ProductID As Integer
     Public Property Name As String
     Public Property ProductNumber As String
