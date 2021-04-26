@@ -34,7 +34,7 @@
 
         Return ListPrice - StandardCost
     End Function
-    Overrides Function GetClassData() As String
+    Protected Overrides Function GetClassData() As String
         Dim sb As New Text.StringBuilder(1024)
 
         sb.AppendLine("Product ID:" + ProductID.ToString())

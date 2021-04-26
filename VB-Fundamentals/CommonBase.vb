@@ -8,7 +8,10 @@
     Public Property IsActive As Boolean
     Public Property ModifiedDate As DateTime
     Public Property CreatedBy As String
-    Overridable Function GetClassData() As String
+    Public Overrides Function ToString() As String
+        Return GetClassData()
+    End Function
+    Protected Overridable Function GetClassData() As String
         Dim sb As New Text.StringBuilder(1024)
 
         sb.AppendLine("Is Active:" + IsActive.ToString())
