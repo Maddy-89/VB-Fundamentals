@@ -1,12 +1,12 @@
 ﻿Module MainModule
     Sub Main()
         Dim prod As New Product
+        Dim SellDate As DateTime
 
         prod.SellStartDate = #1/1/2019#
-        prod.CalculatedSellEndDate(20)
+        ' Pass sellDate by reference
+        prod.CalculateSellEndDate(30, SellDate)
 
-        Console.WriteLine(prod.SellEndDate)
-
-        Console.ReadKey()
+        Console.Write(SellDate)
     End Sub
 End Module

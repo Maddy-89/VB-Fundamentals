@@ -9,7 +9,10 @@
     Public Property Weight As Decimal
     Public Property SellStartDate As DateTime
     Public Property SellEndDate As DateTime
-    Sub CalculatedSellEndDate(ByVal days As Integer)
+    Sub CalculateSellEndDate(ByVal days As Integer,
+                             ByRef sellDate As DateTime)
         SellEndDate = SellStartDate.AddDays(days)
+        ' Set the ByRef parameter
+        sellDate = SellEndDate
     End Sub
 End Class
