@@ -1,4 +1,5 @@
 ﻿Public Class Product
+    Inherits CommonBase
     Sub New()
         StandardCost = 500
         ListPrice = 900
@@ -33,5 +34,16 @@
 
         Return ListPrice - StandardCost
     End Function
+    Function GetClassData() As String
+        Dim sb As New Text.StringBuilder(1024)
 
+        sb.AppendLine("Product ID:" + ProductID.ToString())
+        sb.AppendLine("Product Name:" + Name)
+        sb.AppendLine("Product Number:" + ProductNumber)
+        sb.AppendLine("Is Active:" + IsActive.ToString())
+        sb.AppendLine("Modified Date:" + ModifiedDate.ToLongDateString)
+        sb.AppendLine("Created By:" + CreatedBy)
+
+        Return sb.ToString()
+    End Function
 End Class
