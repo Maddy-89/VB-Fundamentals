@@ -11,7 +11,7 @@ BuiltInModule.Sample03 - DateTime Methods
 \Properties Folder
 ------------------------------
 Product01 - Full property get/set
-Product02 - Public property
+Product02 - Public property (Auto-Implemented Properties)
 Product03 - Readonly property
 
 \Methods Folder
