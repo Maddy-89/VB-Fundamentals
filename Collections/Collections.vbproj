@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{043DB0B1-32DC-4ED1-AE0C-7464F91D8458}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>Collections.MainModule</StartupObject>
-    <RootNamespace>Collections</RootNamespace>
+    <StartupObject>CollectionSamples.MainModule</StartupObject>
+    <RootNamespace>CollectionSamples</RootNamespace>
     <AssemblyName>Collections</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Console</MyType>
@@ -79,6 +79,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
